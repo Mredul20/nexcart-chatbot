@@ -1,0 +1,53 @@
+# WordPress files (if accidentally placed in plugin)
+wp-config.php
+wp-config-sample.php
+wp-content/uploads/
+wp-content/cache/
+
+# Plugin development files
+*.log
+*.tmp
+*.bak
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# Node modules (if using build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+/build/
+/dist/
+*.zip
+
+# Environment files
+.env
+.env.local
+
+# Documentation build files
+/docs/_build/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Plugin specific
+wp-config-template.php.bak

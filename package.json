@@ -1,0 +1,34 @@
+{
+  "name": "nexcart-chatbot",
+  "version": "1.0.0",
+  "description": "WordPress plugin with dual-mode AI chatbot and live support powered by Groq AI",
+  "main": "nexcart-chatbot.php",
+  "scripts": {
+    "build": "npm run create-zip",
+    "create-zip": "node build-zip.js",
+    "version": "npm run create-zip && git add .",
+    "release": "npm version patch && git push && git push --tags"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "chatbot",
+    "ai",
+    "groq",
+    "woocommerce",
+    "ecommerce"
+  ],
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "archiver": "^5.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mredul20/nexcart-chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mredul20/nexcart-chatbot/issues"
+  },
+  "homepage": "https://github.com/Mredul20/nexcart-chatbot#readme"
+}
