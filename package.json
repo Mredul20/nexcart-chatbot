@@ -1,6 +1,6 @@
 {
   "name": "nexcart-chatbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WordPress plugin with dual-mode AI chatbot and live support powered by Groq AI",
   "main": "nexcart-chatbot.php",
   "scripts": {

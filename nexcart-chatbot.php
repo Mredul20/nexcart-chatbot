@@ -3,7 +3,7 @@
  * Plugin Name: NexCart Chatbot
  * Plugin URI: https://your-website.com/nexcart-chatbot
  * Description: A secure and modular WordPress plugin that adds a floating chatbox to the frontend. It allows users to chat with an AI assistant powered by Groq AI (LLaMA 3 model), and stores conversations in Firebase Realtime Database. Messages are securely routed through a PHP backend endpoint that keeps the API key safe.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Your Name
  * Author URI: https://your-website.com
  * License: GPL v2 or later
@@ -31,7 +31,7 @@ add_action('before_woocommerce_init', function() {
 });
 
 // Define plugin constants
-define('NEXCART_CHATBOT_VERSION', '1.0.0');
+define('NEXCART_CHATBOT_VERSION', '1.0.1');
 define('NEXCART_CHATBOT_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('NEXCART_CHATBOT_PLUGIN_PATH', plugin_dir_path(__FILE__));
 
