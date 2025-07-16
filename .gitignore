@@ -4,6 +4,11 @@ wp-config-sample.php
 wp-content/uploads/
 wp-content/cache/
 
+# Security - API keys and sensitive files
+API-KEY-REFERENCE.txt
+*.key
+*.secret
+
 # Plugin development files
 *.log
 *.tmp
